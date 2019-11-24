@@ -56,17 +56,7 @@ func main() {
 	//	fmt.Printf("%s: %s\n", m.Name, m.Text)
 	//}
 
-	//NewDecoder(ioreader)  新建一个decode 对象
-	//dec.Decode(指针) 讲json string 转换为 指针对象
-	//dec.More() 是否读取完 Todo
-	//dec.token() 获取json 内容
-	//io.EOF TODO 判断io是否读完
-	//json.Indent  缩进格式之后的代码 TODO 流相关知识
-	//json.Marshal  将对象转换为字符串
-	//json.MarshalIndent 转为带缩进的字符串
-	//json.RawMessage(msg) rawMessage 类型
-	//json.Unmarshal  将字符串转换为对象
-	//json.Valid 校验json字符串是否合法
+
 
 	//	goodJSON := `{"example": 1,
 	//  "name":2
@@ -150,3 +140,16 @@ func main() {
 	//fmt.Printf("%+v", cfl)
 
 }
+
+//部分接口总结
+//NewDecoder(ioreader)  新建一个decode 对象
+//dec.Decode(指针) 讲json string 转换为 指针对象
+//dec.More() 是否读取完 Todo
+//dec.token() 获取json 内容
+//io.EOF TODO 判断io是否读完
+//json.Indent  缩进格式之后的代码 TODO 流相关知识
+//json.Marshal  将对象转换为字符串
+//json.MarshalIndent 转为带缩进的字符串
+//json.RawMessage(msg) rawMessage 类型
+//json.Unmarshal  将字符串转换为对象
+//json.Valid 校验json字符串是否合法
